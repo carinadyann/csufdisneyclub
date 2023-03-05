@@ -89,3 +89,10 @@ body {
     margin: 20px;
     border-radius: 25px;
 }
+
+/* text */
+h1 {
+    font-size: 45px;
+    color: #004AAD;
+    text-align: center;
+}
