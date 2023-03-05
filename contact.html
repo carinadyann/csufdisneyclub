@@ -7,14 +7,9 @@
 </head>
 <body>
 
-    <!-- logo -->
-    <ul>
-        <li style="position: absolute; left: 45%; color: transparent"><img src="../csufdisneyclub/Images/DisneyClubLogo.png"></li>
-    </ul>
-
     <!-- navigation -->
-    <div id="mySidebar" class="sidebar">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times</a>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="index.html">Home</a>
         <a href="aboutUs.html">About Us</a>
         <a href="members.html">Members</a>
@@ -22,20 +17,25 @@
     </div>
 
     <div id="main">
-        <button class="openbtn" onclick="openNav()">&#9776</button>
+        <span style="font-size: 30px; cursor: pointer; color: #004AAD;" onclick="openNav()"><img src="../csufdisneyclub/Images/DisneyHome.png" class="navButton"></span>
+        <!--&#9776;-->
     </div>
+    <!-- logo -->
+    <ul>
+        <li style="color: transparent"><img src="../csufdisneyclub/Images/DisneyClubLogo.png" class="center-top"></li>
+    </ul>
 
     <div class="bodyPage">
 
     </div>
 
     <script>function openNav() {
-            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("mySidenav").style.width = "250px";
             document.getElementById("main").style.marginLeft = "250px";
         }
 
         function closeNav() {
-            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("mySidenav").style.width = "0";
             document.getElementById("main").style.marginLeft = "0";
         }</script>
 
