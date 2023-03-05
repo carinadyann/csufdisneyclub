@@ -10,7 +10,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #BAE6FF;
+    background-color: #FFFFFF;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -64,6 +64,13 @@ body {
         .sidenav a {
             font-size: 18px;
         }
+}
+
+/* fix for iphone adjustment */
+@media screen and (min-width: 900px) {
+    h1 {
+        font-size: 30px;
+    }
 }
 
 /* images */
