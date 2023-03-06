@@ -1,0 +1,43 @@
+/* flex wrap */
+.member-flex {
+    gap: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+/* grid content */
+.board_grid_content {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+}
+
+.member_grid_content {
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+/* text */
+.board_title {
+    font-family: 'Montez';
+    font-size: 50px;
+    font-weight: 900;
+    text-decoration: underline;
+    text-align: center;
+    color: #004AAD;
+}
+
+.member_name {
+    font-family: 'Montez';
+    font-size: 40px;
+    text-align: center;
+    color: #004AAD;
+}
+
+.member_major {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    color: #004AAD;
+}
