@@ -1,10 +1,12 @@
 /* flex wrap */
 .member-flex {
-    gap: 60px;
+    gap: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 25px;
+    margin: 0px 100px 0px 100px;
+    /* top right bottom left */
 }
 
 /* grid content */
