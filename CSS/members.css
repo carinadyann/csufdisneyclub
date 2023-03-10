@@ -1,6 +1,6 @@
 /* flex wrap */
 .member-flex {
-    gap: 100px;
+    gap: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -12,11 +12,15 @@
 /* grid content */
 .board_grid_content {
     display: grid;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 500px;
     grid-template-rows: auto auto auto auto;
 }
 
 .member_grid_content {
     display: grid;
+    width: 500px;
     grid-template-rows: auto auto auto;
 }
 
