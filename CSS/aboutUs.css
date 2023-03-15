@@ -1,0 +1,12 @@
+/* instagram formatting */
+insta-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#instapost ul li {
+    width: 320px;
+    float: left;
+    margin-right: 10px;
+}
