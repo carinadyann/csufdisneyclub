@@ -5,3 +5,11 @@
     justify-content: center;
     padding-bottom: 25px;
 }
+
+.club-flex {
+    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}

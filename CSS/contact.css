@@ -1,0 +1,23 @@
+.info {
+    font-family: 'Montez';
+    font-size: 50px;
+    font-weight: 900;
+    color: #004AAD;
+    text-decoration: underline;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.email-phone {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #004AAD;
+    padding-left: 20px;
+}
+
+.name-contact {
+    font-family: 'Montez';
+    font-size: 40px;
+    color: #004AAD;
+    padding-left: 20px;
+}
