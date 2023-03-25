@@ -34,28 +34,28 @@
             <div>
                 <div class="info">Club</div>
                 <div class="name-contact">Disney Club:</div>
-                <div class="email-phone">Email: disneyclubcsuf@gmail.com</div>
+                <div class="email-phone">Email: <p class="email-phone" id="myEmail1" style="margin-left: -20px; display: inline" onclick="copyFunction(id)">disneyclubcsuf@gmail.com</p></div>
             </div>
             <br><br>
 
             <div>
                 <div class="info">President</div>
                 <div class="name-contact">Adrian Alzamora:</div>
-                <div class="email-phone">Email: alzamoradrian@gmail.com</div>
+                <div class="email-phone">Email: <p class="email-phone" id="myEmail2" style="margin-left: -20px; display: inline" onclick="copyFunction(id)">alzamoradrian@gmail.com</p></div>
             </div>
             <br><br>
 
             <div>
                 <div class="info">Vice President</div>
                 <div class="name-contact">Alyssa Gomez:</div>
-                <div class="email-phone">Email: alygo2002@csu.fullerton.edu</div>
+                <div class="email-phone">Email: <p class="email-phone" id="myEmail3" style="margin-left: -20px; display: inline" onclick="copyFunction(id)">alygo2002@csu.fullerton.edu</p></div>
                 <div class="email-phone">Phone: (951) 440-3352</div>
             </div>
             <br><br>
             <div>
                 <div class="info">Treasurer</div>
                 <div class="name-contact">Vincent Moyrong:</div>
-                <div class="email-phone">Email: vmoyrong@gmail.com</div>
+                <div class="email-phone">Email: <p class="email-phone" id="myEmail4" style="margin-left: -20px; display: inline" onclick="copyFunction(id)">vmoyrong@gmail.com</p></div>
                 <div class="email-phone">Phone: (194) 935-48818</div>
             </div>
             <br><br>
@@ -63,7 +63,7 @@
             <div>
                 <div class="info">Webmaster/Social Media</div>
                 <div class="name-contact">Carina Adrianzen:</div>
-                <div class="email-phone">Email: carinadyann@csu.fullerton.edu</div>
+                <div class="email-phone">Email: <p class="email-phone" id="myEmail5" style="margin-left: -20px; display: inline" onclick="copyFunction(id)">carinadyann@csu.fullerton.edu</p></div>
                 <div class="email-phone">Phone: (619) 942-9103</div>
             </div>
             <br><br>
@@ -71,7 +71,7 @@
             <div>
                 <div class="info">Co-Secretary</div>
                 <div class="name-contact">Jaden Eilers:</div>
-                <div class="email-phone">Email: jadeneilers7@gmail.com</div>
+                <div class="email-phone">Email: <p class="email-phone" id="myEmail7=6" style="margin-left: -20px; display: inline" onclick="copyFunction(id)">jadeneilers7@gmail.com</p></div>
                 <div class="email-phone">Phone: (760) 822-3178</div>
             </div>
             <br><br>
@@ -79,7 +79,7 @@
             <div>
                 <div class="info">Co-Secretary</div>
                 <div class="name-contact">Elise Gwon:</div>
-                <a class="email-phone" onclick="copyFunction()">Email: elisegwon@gmail.com</a> <!--fix-->
+                <div class="email-phone">Email: <p class="email-phone" id="myEmail7" style="margin-left: -20px; display: inline" onclick="copyFunction(id)">elisegwon@gmail.com</p></div>
                 <div class="email-phone">Phone: (213) 800-2373</div>
             </div>
             <br><br>
@@ -87,8 +87,8 @@
             <div>
                 <div class="info">Director of Communications</div>
                 <div class="name-contact">Kennedy Montoya:</div>
-                <div class="email-phone">Email: kennedygmontoya@gmail.com</div>
-                <div class="email-phone">Email: (714) 823-7784</div>
+                <div class="email-phone">Email: <p class="email-phone" id="myEmail8" style="margin-left: -20px; display: inline" onclick="copyFunction(id)">kennedygmontoya@gmail.com</p></div>
+                <div class="email-phone">Phone: (714) 823-7784</div>
             </div>
             <br><br>
 
@@ -108,19 +108,15 @@
             document.getElementById("main").style.marginLeft = "0";
         }
 
-        function copyFunction() {
+        function copyFunction(emailId) {
             // Get the text field
-            var copyText = document.getElementById("myInput");
-
-            // Select the text field
-            copyText.select();
-            copyText.setSelectionRange(0, 99999); // For mobile devices
+            var copyText = document.getElementById(emailId).innerHTML;
 
             // Copy the text inside the text field
-            navigator.clipboard.writeText(copyText.value);
+            navigator.clipboard.writeText(copyText);
 
             // Alert the copied text
-            alert("Copied the text: " + copyText.value);
+            alert('"' + copyText + '" was copied to your clipboard');
         }
     </script>
 
