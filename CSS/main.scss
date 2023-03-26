@@ -1,0 +1,6 @@
+﻿@for $i from 1 through 4 {
+    #p#{$i} {
+             z-index: 5 - $i;
+    }
+}
+

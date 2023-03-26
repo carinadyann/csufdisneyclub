@@ -25,3 +25,22 @@
     color: #004AAD;
     padding-left: 20px;
 }
+
+.contact-flex {
+    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+    background-color: white;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.contact_grid_content {
+    display: grid;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 500px;
+    grid-template-rows: auto auto auto auto;
+}
