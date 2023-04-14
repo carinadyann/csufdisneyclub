@@ -1,4 +1,27 @@
-﻿//aboutUS
+﻿//side nav
+function openNav() {
+    document.getElementById("mySidenav").style.width = "180px";
+    document.getElementById("main").style.marginLeft = "180px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+}
+
+//contact
+function copyFunction(emailId) {
+    // Get the text field
+    var copyText = document.getElementById(emailId).innerHTML;
+
+    // Copy the text inside the text field
+    navigator.clipboard.writeText(copyText);
+
+    // Alert the copied text
+    alert('"' + copyText + '" was copied to your clipboard');
+}
+
+//aboutUS
 //References to DOM Elements
 const prevBtn = document.querySelector("#prev-btn");
 const nextBtn = document.querySelector("#next-btn");
@@ -15,8 +38,8 @@ prevBtn.addEventListener("click", goPrevPage);
 nextBtn.addEventListener("click", goNextPage);
 
 function bookSetup(pages) {
-    numOfPapers = pages
-    //ex: const paper1 = document.querySelector("#p1");
+numOfPapers = pages
+//ex: const paper1 = document.querySelector("#p1");
     for (let i = 1; i <= pages; i++) {
         storePages.push(document.querySelector("#p" + i));
     }
