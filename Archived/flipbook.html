@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>CSUF Disney Club</title>
+    <link rel="stylesheet" href="../csufdisneyclub/CSS/main.css">
+    <link rel="stylesheet" href="../csufdisneyclub/CSS/main.scss">
+    <link rel="stylesheet" href="../csufdisneyclub/CSS/aboutUs.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montez">
+    <script src="../csufdisneyclub/JS/main.js" defer></script>
+    <script src="https://kit.fontawesome.com/b0f29e9bfe.js" crossorigin="anonymous"></script>
+</head>
+<body onLoad="javascript:bookSetup(4)">
+    <a id="top"></a>
+
+    <!-- navigation -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="aboutUs.html">About Us</a>
+        <a href="members.html">Members</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div id="main">
+        <span style="font-size: 30px; cursor: pointer; color: #004AAD;" onclick="openNav()"><img src="../csufdisneyclub/Images/DisneyHome.png" class="navButton"></span>
+        <!--&#9776;-->
+    </div>
+
+    <!-- logo -->
+    <ul>
+        <li style="color: transparent"><a href="index.html"><img src="../csufdisneyclub/Images/DisneyClubLogo.png" class="center-top"></a></li>
+    </ul>
+
+    <div class="bodyPage">
+        <h1>Club Pictures</h1>
+
+        <div style="height: 100vh; display: flex; justify-content: center; align-items: center;">
+            <!-- Previous Button -->
+            <button id="prev-btn">
+                <i class="fas fa-arrow-circle-left"></i>
+            </button>
+
+            <!-- Button -->
+            <div id="book" class="book">
+                <!-- Page 1 -->
+                <div id="p1" class="paper">
+                    <div class="front">
+                        <div id="f1" class="front-content">
+                            <h1>Front 1</h1>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div id="b1" class="back-content">
+                            <h1>Back 1</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 2 -->
+                <div id="p2" class="paper">
+                    <div class="front">
+                        <div id="f2" class="front-content">
+                            <h1>Front 2</h1>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div id="b2" class="back-content">
+                            <h1>Back 2</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 3 -->
+                <div id="p3" class="paper">
+                    <div class="front">
+                        <div id="f3" class="front-content">
+                            <h1>Front 3</h1>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div id="b3" class="back-content">
+                            <h1>Back 3</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 4 -->
+                <div id="p4" class="paper">
+                    <div class="front">
+                        <div id="f4" class="front-content">
+                            <h1>Front 4</h1>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div id="b4" class="back-content">
+                            <h1>Back 4</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Next Button -->
+                <button id="next-btn">
+                    <i class="fas fa-arrow-circle-right"></i>
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p style="color: white; text-align: center">Copyright &copy 2023 CSUF Disney Club. <br>All Rights Reserved.</p>
+    </footer>
+
+    <center><a href="#top" style="padding-bottom: 30px">Back to top</a></center>
+
+</body>
+</html>
