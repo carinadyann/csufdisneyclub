@@ -1,0 +1,29 @@
+.announce-flex {
+    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.club-flex {
+    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+/* flipbook */
+section {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    height: 500px;
+    width: auto;
+}
+
+/* Insert your own background image below */
+.I {
+    background-image: url(../csufdisneyclub/Images/ClubPhotos/ClubPhoto1.png);
+}

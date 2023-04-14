@@ -1,0 +1,6 @@
+/* instagram formatting */
+insta-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
