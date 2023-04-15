@@ -4,3 +4,12 @@ insta-flex {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+/* slideshow */
+.mySlides {
+    display: none;
+}
+
+.leftButton, .rightButton {
+    cursor: pointer;
+}
