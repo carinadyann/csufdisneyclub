@@ -12,4 +12,7 @@ insta-flex {
 
 .leftButton, .rightButton {
     cursor: pointer;
+    color: #38B6FF;
+    font-size: 50px;
+    padding: 50px;
 }
